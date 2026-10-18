@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "homeTitle": "Free Online Image Tools"
+  },
+  "brand": {
+    "name": "Image Toolbox",
+    "tagline": "Simple, practical image tools"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "tools": "All tools",
+    "language": "中文",
+    "switchLanguage": "Switch to Chinese",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode",
+    "learnMore": "Explore tool",
+    "backHome": "Back to home",
+    "phase": "Phase {phase}",
+    "planned": "In development",
+    "available": "Use now",
+    "comingSoon": "Coming soon"
+  },
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy first",
+    "about": "About"
+  },
+  "hero": {
+    "eyebrow": "Free online image tools",
+    "titleStart": "Image tools that feel",
+    "titleAccent": "simple and private",
+    "description": "Compress, convert, crop, and create ID photos. No account required, and your images stay on your device by default.",
+    "primaryAction": "Compress images",
+    "secondaryAction": "View all tools",
+    "privacyNote": "No account needed",
+    "privacyDetail": "Open a tool and get started",
+    "speedNote": "Start instantly",
+    "speedDetail": "No server queue",
+    "accessNote": "Works anywhere",
+    "accessDetail": "Designed for desktop and mobile"
+  },
+  "demo": {
+    "label": "Processing flow",
+    "fileName": "portrait.jpg",
+    "fileMeta": "2400 × 3200 · 4.8 MB",
+    "stepUpload": "Choose image",
+    "stepProcess": "Adjust settings",
+    "stepDownload": "Download safely",
+    "ready": "Ready",
+    "private": "The image is handled only in this browser tab"
+  },
+  "home": {
+    "toolsEyebrow": "Tool directory",
+    "toolsTitle": "Find the right image tool in one place",
+    "toolsDescription": "Clear categories and focused pages keep everyday image tasks straightforward.",
+    "featuredEyebrow": "Featured tool",
+    "featuredTitle": "Create ID photos in your browser",
+    "featuredDescription": "Upload a portrait, replace the background, choose a common size, and adjust the subject while preserving facial identity.",
+    "featuredBadge": "Use now",
+    "featuredPrivacy": "Keeps the subject's natural face and details",
+    "featuredSizes": "1 inch · 2 inch · 35 × 45 mm · Custom",
+    "featuredMaskLabel": "Background replacement",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "A few things to know before you start",
+    "faq1Question": "Are my images uploaded to a server?",
+    "faq1Answer": "By default, no. Core tools will process files in your browser. If a future feature requires a cloud service, it will explain that before use.",
+    "faq2Question": "Will these tools be free?",
+    "faq2Answer": "Core tools are planned to be free without an account. Future ads will stay clearly separated from upload and download controls.",
+    "faq3Question": "Can I use the site on a phone?",
+    "faq3Answer": "Yes. The interface is designed for touch and small screens. Large images and AI features will show device limits and fallback options.",
+    "faq4Question": "Will an ID photo always pass official review?",
+    "faq4Answer": "No guarantee can be made. Requirements differ by authority, exam, and country, so always check the latest official rules before export."
+  },
+  "categories": {
+    "optimize": {
+      "name": "Compression & optimization",
+      "description": "Reduce file size and see honest before-and-after results."
+    },
+    "convert": {
+      "name": "Format conversion",
+      "description": "Convert between JPG, PNG, and WebP."
+    },
+    "resize": {
+      "name": "Resize & crop",
+      "description": "Adjust dimensions, aspect ratio, and composition precisely."
+    },
+    "idPhoto": {
+      "name": "ID photo tools",
+      "description": "Remove backgrounds locally and export common sizes."
+    },
+    "edit": {
+      "name": "Image editing",
+      "description": "Add text, image watermarks, and practical effects."
+    },
+    "export": {
+      "name": "Export & documents",
+      "description": "Arrange multiple images and export PDF or ZIP files."
+    }
+  },
+  "tools": {
+    "compressor": {
+      "name": "Image compressor",
+      "description": "Compress JPG, PNG, and WebP files in batches with honest size comparisons."
+    },
+    "converter": {
+      "name": "Image converter",
+      "description": "Convert JPG, PNG, and WebP images in batches."
+    },
+    "resizer": {
+      "name": "Image resizer",
+      "description": "Resize images by pixels, percentage, or practical presets."
+    },
+    "cropper": {
+      "name": "Image cropper",
+      "description": "Crop freely or use fixed ratios with touch-friendly controls."
+    },
+    "idPhoto": {
+      "name": "AI ID photo maker",
+      "description": "Remove backgrounds, choose a color, and export common ID photo sizes."
+    },
+    "watermark": {
+      "name": "Image watermark",
+      "description": "Add adjustable text or image watermarks to multiple files."
+    },
+    "imageToPdf": {
+      "name": "Images to PDF",
+      "description": "Order images, choose paper and margins, then export a PDF."
+    }
+  },
+  "toolIntro": {
+    "readyEyebrow": "Image tool",
+    "comingEyebrow": "Coming soon",
+    "eyebrow": "Product development status",
+    "titleSuffix": "is coming in a later phase",
+    "description": "This page now has its route, bilingual navigation, and responsive structure. Real image processing will open after its implementation phase and tests are complete.",
+    "notice": "This page does not accept or process images yet, and it does not show simulated results.",
+    "nextLabel": "Planned phase"
+  },
+  "phase2": {
+    "eyebrow": "Phase 2 · Shared image processing",
+    "title": "Local image processing test area",
+    "description": "This area runs the real validation, decoding, preview, and Canvas export pipeline shared by future tools. The exported PNG is a compatibility test copy and is not presented as compression.",
+    "toolPageDescription": "The shared upload and processing foundation is ready to test. Batch compression, quality controls, and size comparisons will open in Phase 3.",
+    "toolPageNotice": "The test area below performs real validation, decoding, and PNG export without calculating or claiming compression results.",
+    "clearAll": "Clear all",
+    "unknownFile": "Unknown file",
+    "dismissError": "Dismiss error",
+    "decoding": "Safely checking and decoding {count} image…",
+    "ready": "Format, dimensions, and memory checks passed",
+    "removeFile": "Remove image",
+    "exportPng": "Export PNG test copy",
+    "exportSuccess": "Generated and downloaded a {size} PNG file",
+    "cancel": "Cancel processing",
+    "privacy": "All checks, previews, and exports run in this browser tab. Images are not uploaded or written to persistent storage.",
+    "upload": {
+      "title": "Drop images here",
+      "description": "You can also choose multiple images from your device",
+      "button": "Choose images",
+      "limits": "JPG, PNG, and WebP; up to 25 MB each; maximum 20 files",
+      "singleDescription": "Choose one image from your device to crop",
+      "singleButton": "Choose one image",
+      "singleLimits": "JPG, PNG, and WebP; up to 25 MB",
+      "portraitDescription": "Choose a clear, front-facing portrait",
+      "portraitButton": "Choose portrait"
+    },
+    "errors": {
+      "emptyFile": "The file is empty.",
+      "tooManyFiles": "Keep up to {max} images in one batch.",
+      "fileTooLarge": "The file exceeds the {max} MB limit.",
+      "unsupportedSignature": "The file signature is not a supported JPG, PNG, or WebP image.",
+      "mimeMismatch": "The declared MIME does not match the real format; expected {expected}.",
+      "extensionMismatch": "The extension does not match the real format; use {expected}.",
+      "decodeFailed": "The browser could not decode this image; the file may be damaged.",
+      "invalidDimensions": "The image dimensions are invalid.",
+      "edgeTooLarge": "Neither image edge may exceed {max} pixels.",
+      "pixelCountTooLarge": "The image may not exceed about {max} megapixels.",
+      "memoryRisk": "Decoding and export would exceed the {max} MB memory protection limit.",
+      "cancelled": "Processing was cancelled.",
+      "canvasUnavailable": "This browser could not create an image canvas.",
+      "encodeFailed": "The browser could not encode the output image.",
+      "unsupportedOutput": "This browser does not support the selected output format.",
+      "invalidCrop": "The crop area is invalid. Please adjust it and try again.",
+      "workerFailed": "Image processing could not finish. Try a smaller image.",
+      "downloadFailed": "The browser blocked the download; check its download permissions."
+    }
+  },
+  "phase3": {
+    "actions": {
+      "clear": "Clear images",
+      "cancel": "Cancel",
+      "download": "Download result",
+      "downloadZip": "Download ZIP",
+      "zipping": "Creating ZIP {progress}%",
+      "zipError": "ZIP creation failed. Download the images individually instead."
+    },
+    "controls": {
+      "outputFormat": "Output format",
+      "quality": "Image quality",
+      "background": "Transparency background",
+      "keepSmaller": "Keep the original when the result is larger",
+      "resizeMode": "Resize by",
+      "pixels": "Pixel size",
+      "percent": "Percentage",
+      "width": "Width",
+      "height": "Height",
+      "lockRatio": "Lock ratio",
+      "scale": "Scale"
+    },
+    "status": {
+      "preparing": "Reading {count} image…",
+      "selected": "{count} image selected",
+      "progress": "Completed {done} of {total}",
+      "ready": "Ready to process",
+      "processing": "Processing…",
+      "done": "Complete",
+      "originalKept": "The new file was not smaller, so the original was kept",
+      "smaller": "{percent}% smaller",
+      "larger": "{percent}% larger"
+    },
+    "compressor": {
+      "eyebrow": "Batch compression",
+      "title": "Reduce image file size",
+      "description": "Choose image quality, process a batch, and compare file sizes directly.",
+      "feature1": "JPG, PNG, WebP",
+      "feature2": "Up to 20 images",
+      "feature3": "Before-and-after sizes",
+      "hint": "Set the quality, then start compression",
+      "action": "Compress images"
+    },
+    "converter": {
+      "eyebrow": "Batch conversion",
+      "title": "Convert image formats",
+      "description": "Convert between JPG, PNG, and WebP, with a background color for transparent images exported as JPG.",
+      "feature1": "JPG, PNG, WebP",
+      "feature2": "Background color",
+      "feature3": "Batch conversion",
+      "hint": "Choose an output format, then start conversion",
+      "action": "Convert images"
+    },
+    "resizer": {
+      "eyebrow": "Batch resize",
+      "title": "Resize your images",
+      "description": "Resize by pixels or percentage while keeping the original aspect ratio when needed.",
+      "feature1": "Pixels or percentage",
+      "feature2": "Aspect ratio lock",
+      "feature3": "Useful presets",
+      "hint": "Set the target size, then resize",
+      "action": "Resize images"
+    },
+    "cropper": {
+      "eyebrow": "Precise crop",
+      "title": "Keep the part of the image you want",
+      "description": "Move the crop frame, choose a ratio, zoom, rotate, and export.",
+      "feature1": "Free and fixed ratios",
+      "feature2": "Mouse and touch controls",
+      "feature3": "Rotate and zoom",
+      "ratio": "Crop ratio",
+      "free": "Free ratio",
+      "custom": "Custom ratio",
+      "zoom": "Crop area",
+      "rotate": "Rotate right",
+      "action": "Create cropped image",
+      "canvasLabel": "Interactive image crop area",
+      "dragHint": "Drag the white frame to move it. Drag the lower-right handle to resize it."
+    }
+  },
+  "idPhoto": {
+    "eyebrow": "Smart ID photo",
+    "title": "Create a standard-size ID photo",
+    "description": "Separate the subject, choose a size, background, and common formal outfit, then adjust the position.",
+    "feature1": "AI portrait cutout",
+    "feature2": "Size and outfit presets",
+    "feature3": "No facial changes",
+    "previewLabel": "Live ID photo preview",
+    "aiTitle": "Remove the original background",
+    "aiDescription": "A lightweight model downloads on first use. Your photo is not uploaded.",
+    "aiAction": "Remove background",
+    "aiRetry": "Run again",
+    "aiSuccess": "The subject and background are separated. Choose a new background color.",
+    "aiError": "Automatic background removal failed. You can still crop the original photo to size.",
+    "aiStatus": {
+      "preparing": "Preparing the image…",
+      "loading": "Loading the model…",
+      "initiate": "Checking model files…",
+      "download": "Downloading the model…",
+      "progress": "Downloading model {progress}%",
+      "done": "Model download complete…",
+      "ready": "Model ready…",
+      "inference": "Separating the subject and background…"
+    },
+    "preset": "Photo size",
+    "presets": {
+      "oneInch": "1 inch · 25 × 35 mm",
+      "twoInch": "2 inch · 35 × 53 mm",
+      "smallTwoInch": "35 × 45 mm",
+      "custom": "Custom pixels"
+    },
+    "background": "Background color",
+    "backgrounds": {
+      "white": "White",
+      "blue": "Blue",
+      "red": "Red",
+      "transparent": "Transparent",
+      "custom": "Custom color"
+    },
+    "outfit": "ID photo outfit",
+    "outfits": {
+      "none": "Keep original clothing",
+      "noneShort": "Original",
+      "navySuit": "Navy suit",
+      "womenBlazer": "Women's black blazer",
+      "whiteShirt": "White shirt",
+      "blueShirtTie": "Blue shirt and tie"
+    },
+    "outfitHint": "The outfit covers the shoulders and upper body. Use the controls below to align the collar.",
+    "outfitNeedsAi": "Finish AI background removal to choose an outfit.",
+    "outfitLoading": "Loading outfit…",
+    "outfitScale": "Outfit size",
+    "outfitVertical": "Outfit vertical position",
+    "zoom": "Subject scale",
+    "horizontal": "Horizontal position",
+    "vertical": "Vertical position",
+    "reset": "Reset subject position",
+    "export": "Create ID photo",
+    "exportReady": "Created a {size} ID photo",
+    "exportError": "The ID photo could not be created. Adjust the size and try again.",
+    "disclaimer": "Requirements differ by authority, exam, passport, and visa. Always follow the latest official specifications. Generated photos are not guaranteed to pass review. DPI is used to calculate print dimensions; browser export may not embed DPI metadata."
+  },
+  "watermark": {
+    "eyebrow": "Batch watermark",
+    "title": "Add watermarks to images",
+    "description": "Add text or image watermarks and adjust position, size, opacity, and angle.",
+    "feature1": "Text and image watermarks",
+    "feature2": "Single or tiled",
+    "feature3": "Batch ZIP download",
+    "type": "Watermark type",
+    "textMode": "Text",
+    "imageMode": "Image",
+    "text": "Watermark text",
+    "image": "Watermark image",
+    "chooseImage": "Choose watermark image",
+    "size": "Watermark size",
+    "opacity": "Opacity",
+    "rotation": "Rotation",
+    "color": "Text color",
+    "position": "Position",
+    "positions": {
+      "topLeft": "Top left",
+      "topRight": "Top right",
+      "center": "Center",
+      "bottomLeft": "Bottom left",
+      "bottomRight": "Bottom right"
+    },
+    "tile": "Tile across the image",
+    "previewLabel": "Watermark preview",
+    "previewUsing": "Previewing: {name}",
+    "hint": "The settings apply to every selected image",
+    "action": "Add watermark",
+    "downloadZip": "Download all results as ZIP",
+    "zipping": "Creating ZIP {progress}%",
+    "zipError": "ZIP creation failed. Download the images individually."
+  },
+  "pdf": {
+    "eyebrow": "Image document",
+    "title": "Convert images to PDF",
+    "description": "Arrange images, choose paper, orientation, and margins, then export one PDF.",
+    "feature1": "Drag to reorder",
+    "feature2": "A4, Letter, custom",
+    "feature3": "One or four images per page",
+    "paper": "Paper size",
+    "custom": "Custom",
+    "orientation": "Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "layout": "Page layout",
+    "single": "One per page",
+    "grid": "Four per page",
+    "margin": "Margins",
+    "orderTitle": "Image order",
+    "previewTitle": "Page preview",
+    "ready": "{count} image ready",
+    "action": "Create PDF",
+    "progress": "Creating {done} of {total}",
+    "success": "PDF ready · {size}",
+    "download": "Download PDF",
+    "error": "PDF creation failed. Try fewer or smaller images."
+  },
+  "ads": {
+    "consentTitle": "Ads and cookie settings",
+    "consentDescription": "Advertising scripts load only after you allow them. The image tools work either way.",
+    "essentialOnly": "Essential only",
+    "allow": "Allow ad cookies"
+  },
+  "seo": {
+    "guideEyebrow": "How to use",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "About this tool",
+    "input": "Supported input",
+    "output": "Available output",
+    "limitations": "Limitations",
+    "relatedTitle": "Related image tools",
+    "tools": {
+      "compressor": {
+        "guideTitle": "How to compress images",
+        "intro": "Image compression helps reduce the size of website graphics, assignments, and social media images while showing honest before-and-after sizes.",
+        "input": "JPG, PNG, and WebP up to 25 MB each.",
+        "output": "The original format, individually or as a ZIP archive.",
+        "limitations": "PNG is re-encoded losslessly and may not shrink. The smaller version is kept by default.",
+        "step1": "Drop or select between one and twenty images.",
+        "step2": "Choose image quality and whether to keep originals when results are larger.",
+        "step3": "Compress, compare sizes, then download individual files or a ZIP.",
+        "faq1Question": "Why did some PNG files not get smaller?",
+        "faq1Answer": "PNG content and original encoding vary widely. Browser-based lossless re-encoding cannot always reduce the size, and the tool does not claim a larger file as a successful compression.",
+        "faq2Question": "Does quality change image dimensions?",
+        "faq2Answer": "No. Compression keeps the pixel width and height. Use the resizer when dimensions need to change."
+      },
+      "converter": {
+        "guideTitle": "How to convert image formats",
+        "intro": "Format conversion helps images work in different apps, websites, and documents, including correct handling of transparency.",
+        "input": "JPG, PNG, and WebP.",
+        "output": "JPG, PNG, and WebP, individually or as ZIP.",
+        "limitations": "Formats the browser cannot encode are disabled. Transparent images require a solid background when exported as JPG.",
+        "step1": "Choose one or more images to convert.",
+        "step2": "Select the output format, quality, and JPG background color.",
+        "step3": "Convert and download individual files or a ZIP.",
+        "faq1Question": "What happens to transparency when converting to JPG?",
+        "faq1Answer": "JPG has no transparent channel, so transparent pixels are filled with your selected background color.",
+        "faq2Question": "Does conversion change width and height?",
+        "faq2Answer": "No. Format conversion preserves pixel dimensions and aspect ratio."
+      },
+      "resizer": {
+        "guideTitle": "How to resize images",
+        "intro": "Resize images for thumbnails, social posts, or uploads that require specific pixel dimensions.",
+        "input": "JPG, PNG, and WebP.",
+        "output": "The original format, individually or as ZIP.",
+        "limitations": "Upscaling cannot create missing detail. Very large canvases are blocked by memory protection.",
+        "step1": "Upload images and choose pixels or percentage.",
+        "step2": "Set width and height, keep the ratio locked, or use a common width.",
+        "step3": "Process the images, verify actual dimensions, and download.",
+        "faq1Question": "How do I avoid distortion?",
+        "faq1Answer": "Keep Lock ratio enabled so the other dimension follows the original aspect ratio.",
+        "faq2Question": "Can images with different ratios be resized together?",
+        "faq2Answer": "Yes. With ratio lock enabled, each image calculates its height from its own original ratio."
+      },
+      "cropper": {
+        "guideTitle": "How to crop an image precisely",
+        "intro": "Cropping changes composition, removes edge content, and creates common aspect ratios.",
+        "input": "One JPG, PNG, or WebP image.",
+        "output": "JPG, PNG, or WebP.",
+        "limitations": "Pixels outside the white frame are removed. Export size follows the current frame after rotation.",
+        "step1": "Choose an image and a free, fixed, or custom ratio.",
+        "step2": "Drag the white frame to move it, resize from the lower-right handle, zoom, or rotate.",
+        "step3": "Choose an output format and create the cropped result.",
+        "faq1Question": "Does export match the preview?",
+        "faq1Answer": "Yes. Export uses the same original-image coordinates and rotation shown by the white crop frame.",
+        "faq2Question": "Can I move the crop frame on a phone?",
+        "faq2Answer": "Yes. The crop area uses pointer events for phones, tablets, and desktop input."
+      },
+      "idPhoto": {
+        "guideTitle": "How to create an ID photo",
+        "intro": "The ID photo editor combines background handling, common sizes, formal outfits, and subject positioning without default beautification or facial changes.",
+        "input": "One clear, front-facing JPG, PNG, or WebP portrait.",
+        "output": "JPG or PNG at the selected pixel dimensions.",
+        "limitations": "The AI model downloads on first use. Complex hair, transparent objects, and similar foreground and background colors can affect edges. Official rules vary.",
+        "step1": "Upload a clear portrait and run AI background removal when needed.",
+        "step2": "Choose size, background, and outfit, then align the subject and collar.",
+        "step3": "Check pixel and print dimensions, then export JPG or PNG.",
+        "faq1Question": "Is my photo sent to an AI service?",
+        "faq1Answer": "No. After the model downloads, portrait inference runs in a local browser Worker and the photo is not uploaded to the model service.",
+        "faq2Question": "Will the photo pass every official review?",
+        "faq2Answer": "No guarantee is possible. Passport, visa, exam, and ID rules differ, so check the latest authority requirements."
+      },
+      "watermark": {
+        "guideTitle": "How to add watermarks in batches",
+        "intro": "Watermarks can identify an author, shop, or sample status using text, images, fixed positions, or tiling.",
+        "input": "JPG, PNG, and WebP; image watermarks use the same formats.",
+        "output": "The original format, individually or as ZIP.",
+        "limitations": "A watermark is written into exported pixels and cannot be removed losslessly. Keep the originals.",
+        "step1": "Choose text or image watermark mode and add the target images.",
+        "step2": "Adjust size, opacity, angle, position, or tiling.",
+        "step3": "Check the preview, process the batch, and download.",
+        "faq1Question": "Does watermark size adapt to different images?",
+        "faq1Answer": "Yes. Size is calculated as a percentage of each image's shorter edge.",
+        "faq2Question": "Can an image watermark have transparency?",
+        "faq2Answer": "Yes. Transparent PNG watermark areas remain transparent when composited."
+      },
+      "imageToPdf": {
+        "guideTitle": "How to combine images into PDF",
+        "intro": "Images to PDF is useful for scans, assignments, receipts, and presentations, with ordering and paper controls.",
+        "input": "Up to twenty JPG, PNG, or WebP images.",
+        "output": "One PDF file.",
+        "limitations": "Images are converted to page-appropriate JPEG to control file size. Many high-resolution images may still use substantial memory.",
+        "step1": "Upload images and drag cards or use arrows to set their order.",
+        "step2": "Choose paper, orientation, margins, and one- or four-image layout.",
+        "step3": "Review the page preview, create the PDF, and download it.",
+        "faq1Question": "How is image order decided?",
+        "faq1Answer": "Pages follow the list from top to bottom. Drag cards or use the up and down arrows to reorder them.",
+        "faq2Question": "Why are images compressed in the PDF?",
+        "faq2Answer": "Moderate compression reduces file size and browser memory use while keeping pages readable."
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Image Toolbox",
+      "description": "Image Toolbox provides free Chinese and English tools for everyday image tasks without registration.",
+      "section1Title": "Everyday tasks in one place",
+      "section1Body": "Compress, convert, resize, crop, watermark, create ID photos, or organize images into PDF.",
+      "section2Title": "Simple and transparent",
+      "section2Body": "We show honest results and limitations. There are no fake download buttons or mandatory ads before saving.",
+      "section3Title": "Continuous improvement",
+      "section3Body": "Image quality, usability, and device compatibility guide improvements. ID photos do not change facial features by default."
+    },
+    "privacy": {
+      "title": "Privacy by design",
+      "description": "Images are processed in your current browser, without automatic uploads, image analytics logs, or model training.",
+      "section1Title": "Images and saving",
+      "section1Body": "Images stay in page memory. Closing or refreshing the page loses edits. Output files are saved only when you download them. Original images are not stored persistently by the website.",
+      "section2Title": "Models, connections, and preferences",
+      "section2Body": "AI removal downloads MODNet files on demand. The model host receives ordinary file requests and connection information, but no photo pixels. Your browser may cache models. Theme and ad consent preferences are stored only on your device and can be removed using browser site-data settings.",
+      "section3Title": "Advertising and cookies",
+      "section3Body": "Real ads are disabled by default. Future advertising requires applicable consent; rejecting ad cookies does not affect tools. No third-party analytics scripts currently load. Operating details and regional consent requirements must be completed before enabling advertising."
+    },
+    "terms": {
+      "title": "Terms of use",
+      "description": "Make sure you have permission to process the images and keep important original files.",
+      "section1Title": "Use and intellectual property",
+      "section1Body": "You retain your image rights and are responsible for respecting copyright, likeness, and privacy rights. Do not use the tools for unlawful purposes.",
+      "section2Title": "Results and limitations",
+      "section2Body": "Encoding, compression, and background removal depend on source images and device capabilities. Review exports and keep backups. Official ID, exam, passport, and visa photos must follow the latest authority specifications.",
+      "section3Title": "Free tools and changes",
+      "section3Body": "Basic tools require no account. Features may change with browser capabilities and maintenance needs. Viewing ads is not a condition for downloading."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "This is a local preview and no public support email has been configured.",
+      "section1Title": "Report a problem",
+      "section1Body": "Record the tool, browser version, file format, settings, and error message. You can describe problems without sharing private photos.",
+      "section2Title": "Feature suggestions",
+      "section2Body": "Suggestions for common sizes, export formats, and usability improvements are welcome.",
+      "section3Title": "Official contact channel",
+      "section3Body": "The operating entity and support channel will be published once confirmed. This page does not collect or submit contact forms."
+    }
+  },
+  "footer": {
+    "description": "Useful image tools that are ready when you are.",
+    "product": "Product",
+    "company": "Information",
+    "about": "About",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "contact": "Contact",
+    "copyright": "© {year} Image Toolbox",
+    "motto": "Fast · Free · Simple",
+    "localNote": "Images are processed locally by default"
+  }
+}
