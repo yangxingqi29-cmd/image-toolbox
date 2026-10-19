@@ -41,8 +41,3 @@ npm run build
 
 所有工具均支持真实上传、处理与下载。生产构建会额外生成中英文静态 HTML、结构化数据、站点地图和 robots 文件。
 
-## 生产 URL 与广告
-
-复制 `.env.example` 为 `.env.production`，填写真实的 `VITE_SITE_URL` 后执行构建。未填写时不会生成错误的 canonical URL。
-
-AdSense 默认关闭；审核通过前保持 `VITE_ADSENSE_ENABLED=false`。完整说明见 `docs/features.md`，AI 模型和许可证见 `docs/ai-models.md`。
