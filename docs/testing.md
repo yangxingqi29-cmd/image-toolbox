@@ -21,6 +21,8 @@ npm run test:e2e
 - 24 个中英文路径均生成独立 `index.html`；
 - 静态页面含 Title、Description、H1、教程、FAQ 和结构化数据；
 - `sitemap.xml`、`robots.txt`、`_headers` 与 `_redirects` 写入 `dist/`。
+- `_redirects` 不包含自匹配的 SPA 200 重写；未知路由由 `wrangler.jsonc` 的静态资源回退处理。
+- `vite.config.ts` 已接入 Cloudflare 官方 Vite 插件，`wrangler deploy` 不会再次自动改写项目配置。
 
 ## 人工检查
 

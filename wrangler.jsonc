@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "image-toolbox",
+  "compatibility_date": "2026-10-12",
+  "observability": {
+    "enabled": true,
+  },
+  "assets": {
+    // 构建后的静态页面、资源文件和 Cloudflare 规则都位于 dist 目录。
+    "directory": "./dist",
+    // 未命中的前端路由回退到 index.html，由 Vue Router 接管。
+    "not_found_handling": "single-page-application",
+  },
+}

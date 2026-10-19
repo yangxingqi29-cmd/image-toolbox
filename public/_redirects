@@ -1,2 +1,4 @@
 /  /zh/  302
-/*  /index.html  200
+
+# 前端路由回退由 wrangler.jsonc 中的 assets.not_found_handling 处理。
+# 这里不能把 /* 重写到 /index.html，否则 /index.html 也会命中该规则并形成无限循环。

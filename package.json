@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "node scripts/prepare-ai-runtime.mjs && vite",
     "build": "node scripts/prepare-ai-runtime.mjs && vue-tsc -b && vite build && node scripts/generate-static-pages.mjs",
+    "deploy": "npm run build && wrangler deploy",
     "seo:generate": "node scripts/generate-static-pages.mjs",
     "preview": "vite preview",
     "test": "vitest run",
@@ -29,6 +30,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.64.0",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/vite": "^4.1.14",
     "@types/node": "^24.7.2",
@@ -46,6 +48,7 @@
     "vite": "^7.1.10",
     "vitest": "^5.0.5",
     "vue-eslint-parser": "^10.2.0",
-    "vue-tsc": "^3.1.1"
+    "vue-tsc": "^3.1.1",
+    "wrangler": "^4.151.1"
   }
 }
